@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 0,
+	"VersionName": "1.0",
+	"FriendlyName": "ICMP",
+	"Description": "A wrapper plugin around the engine ICMP C++ module to ping ICMP hosts.",
+	"Category": "Code Plugins",
+	"CreatedBy": "Incanta Games",
+	"CreatedByURL": "https://incanta.games",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "IcmpBlueprint",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	]
+}

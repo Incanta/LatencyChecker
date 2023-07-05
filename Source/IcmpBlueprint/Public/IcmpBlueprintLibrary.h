@@ -7,16 +7,17 @@
 #include "IcmpBlueprintLibrary.generated.h"
 
 UDELEGATE()
-DECLARE_DYNAMIC_DELEGATE_TwoParams(FIcmpPingResult, FString, TargetAddress, float, RTT);
+DECLARE_DYNAMIC_DELEGATE_TwoParams(FIcmpPingResult, FString, TargetAddress, float, RoundTripTime);
 
 UCLASS()
 class UIcmpBlueprintLibrary : public UBlueprintFunctionLibrary {
   GENERATED_UCLASS_BODY()
 
-  /** Sends one or more pings to the TargetAddress.
+  /** Sends a single ping to the TargetAddress and calls ResultDelegate when finished.
    *
-   * @param Targets the target addresses to ping
-   * @param Timeout max time to wait for a reply in seconds
+   * @param TargetAddress The target address to ping; can be an IP address or resolvable hostname
+   * @param Timeout The max time to wait for a reply in seconds
+   * @param ResultDelegate An event that is called when the ping has finished
    */
    UFUNCTION(
     BlueprintCallable,

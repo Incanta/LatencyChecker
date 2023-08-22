@@ -1,20 +1,20 @@
-// Copyright SeesePlusPlus LLC. All Rights Reserved.
+// Copyright Incanta Games. All Rights Reserved.
 
-#include "IcmpBlueprint.h"
+#include "LatencyChecker.h"
 
-#define LOCTEXT_NAMESPACE "FIcmpBlueprintModule"
+#define LOCTEXT_NAMESPACE "FLatencyCheckerModule"
 
-DEFINE_LOG_CATEGORY(LogIcmpBlueprint);
+DEFINE_LOG_CATEGORY(LogLatencyChecker);
 
-void FIcmpBlueprintModule::StartupModule() {
+void FLatencyCheckerModule::StartupModule() {
   // This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FIcmpBlueprintModule::ShutdownModule() {
+void FLatencyCheckerModule::ShutdownModule() {
   // This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
   // we call this function before unloading the module.
 }
 
 #undef LOCTEXT_NAMESPACE
 
-IMPLEMENT_MODULE(FIcmpBlueprintModule, IcmpBlueprint)
+IMPLEMENT_MODULE(FLatencyCheckerModule, LatencyChecker)

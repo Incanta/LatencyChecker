@@ -2,17 +2,17 @@
 	"FileVersion": 3,
 	"Version": 0,
 	"VersionName": "1.0",
-	"FriendlyName": "ICMP",
-	"Description": "A wrapper plugin around the engine ICMP C++ module to ping ICMP hosts.",
+	"FriendlyName": "LatencyChecker",
+	"Description": "A BP-friendly plugin for UE5 for using various pinging methods",
 	"Category": "Code Plugins",
 	"CreatedBy": "Incanta Games",
 	"CreatedByURL": "https://incanta.games",
-	"EngineVersion": "5.1.0",
+	"EngineVersion": "5.2.0",
 	"CanContainContent": false,
 	"Installed": true,
 	"Modules": [
 		{
-			"Name": "IcmpBlueprint",
+			"Name": "LatencyChecker",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"PlatformAllowList": [

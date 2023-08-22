@@ -1,10 +1,10 @@
 
-// Copyright SeesePlusPlus LLC. All Rights Reserved.
+// Copyright Incanta Games. All Rights Reserved.
 
 using UnrealBuildTool;
 
-public class IcmpBlueprint : ModuleRules {
-  public IcmpBlueprint(ReadOnlyTargetRules Target) : base(Target) {
+public class LatencyChecker : ModuleRules {
+  public LatencyChecker(ReadOnlyTargetRules Target) : base(Target) {
     PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 
     PublicIncludePaths.AddRange(
@@ -35,6 +35,8 @@ public class IcmpBlueprint : ModuleRules {
         "Slate",
         "SlateCore",
         "Icmp",
+        "HTTP",
+        "WebSockets",
       }
       );
 

@@ -1,12 +1,12 @@
-// Copyright SeesePlusPlus LLC. All Rights Reserved.
+// Copyright Incanta Games. All Rights Reserved.
 
 #pragma once
 
 #include "Modules/ModuleManager.h"
 
-DECLARE_LOG_CATEGORY_EXTERN(LogIcmpBlueprint, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogLatencyChecker, Log, All);
 
-class FIcmpBlueprintModule : public IModuleInterface {
+class FLatencyCheckerModule : public IModuleInterface {
 public:
 
   /** IModuleInterface implementation */

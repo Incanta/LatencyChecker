@@ -1,6 +1,6 @@
-# Unreal ICMP Blueprint Plugin
+# Unreal Latency Checker Blueprint Plugin
 
-This is an Unreal Engine plugin that exposes Blueprint nodes for the built-in ICMP C++ module that allows you to ping ICMP hosts (anyone that response to a standard `ping <host>` command).
+This is an Unreal Engine plugin that exposes Blueprint nodes for various pinging methods (ICMP, HTTP GET, and WebSockets echo servers).
 
 The `build.sh` and `compress.sh` scripts in this repository are for internal use by Incanta Games and not intended to be used by other studios.
 

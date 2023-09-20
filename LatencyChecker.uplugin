@@ -18,7 +18,8 @@
 			"PlatformAllowList": [
 				"Win64",
 				"Mac",
-				"Linux"
+				"Linux",
+				"LinuxArm64"
 			]
 		}
 	]

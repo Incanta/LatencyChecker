@@ -10,7 +10,7 @@ UDELEGATE()
 DECLARE_DYNAMIC_DELEGATE_TwoParams(FPingResult, FString, TargetAddress, float, RTT);
 
 UCLASS()
-class ULatencyCheckerLibrary : public UBlueprintFunctionLibrary {
+class LATENCYCHECKER_API ULatencyCheckerLibrary : public UBlueprintFunctionLibrary {
   GENERATED_UCLASS_BODY()
 
   /** Sends one or more pings to the TargetAddress.
@@ -45,8 +45,6 @@ class ULatencyCheckerLibrary : public UBlueprintFunctionLibrary {
     float Timeout,
     FPingResult ResultDelegate
   );
-
-
 
    UFUNCTION(
     BlueprintCallable,

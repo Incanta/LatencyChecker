@@ -6,12 +6,12 @@
 
 #include "LatencyCheckerLibrary.generated.h"
 
-UDELEGATE()
-DECLARE_DYNAMIC_DELEGATE_TwoParams(FPingResult, FString, TargetAddress, float, RTT);
-
 UCLASS()
 class LATENCYCHECKER_API ULatencyCheckerLibrary : public UBlueprintFunctionLibrary {
   GENERATED_UCLASS_BODY()
+
+  UDELEGATE()
+  DECLARE_DYNAMIC_DELEGATE_TwoParams(FPingResult, FString, TargetAddress, float, RTT);
 
   /** Sends one or more pings to the TargetAddress.
    *

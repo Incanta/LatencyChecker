@@ -11,8 +11,8 @@ Checkout our more detailed documentation at https://wiki.incanta.games/plugins/i
 ## Follow Us!
 
 Checkout the below links if you want to make sure you get the latest and greatest news from Incanta Games:
-- Discord: https://discord.gg/cDcP3rBBUc
+- Discord: https://discord.gg/BSrAccCRYc
 
 ## Support
 
-We have a Discord server where you can get expedited support for both issues and feature requests: https://discord.gg/cDcP3rBBUc
+We have a Discord server where you can get expedited support for both issues and feature requests: https://discord.gg/BSrAccCRYc
